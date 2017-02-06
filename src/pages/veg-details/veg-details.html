@@ -1,0 +1,22 @@
+  <ion-header>
+
+    <ion-navbar>
+      <ion-title>{{veg.name}}</ion-title>
+    </ion-navbar>
+
+  </ion-header>
+
+
+  <ion-content padding>
+    <div>
+      <div>
+        {{veg.name}} Details:
+      </div>
+      <img [src]="'assets/img/' + veg.imgUrl">
+    </div>
+    <ul>
+      <li>
+        {{veg.price}} &#8362;
+      </li>
+    </ul>
+  </ion-content>
